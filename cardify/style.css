@@ -1,0 +1,133 @@
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        padding-top: 5%;
+        background: #f8f9fe;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    main{
+        margin: 0 auto;
+        padding: 10px 100px;
+
+    }
+
+    section{
+        margin-top: 2%;
+        padding: 0;
+    }
+
+
+    div.visitcard {
+        margin: 5% auto;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        border: 1px solid #f1f1f1;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        background: white;
+        font-size: 1rem;
+    }
+
+
+    div.visitcard img{
+        justify-content: center;
+        border-radius: 50%;
+        margin-top: -25%;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+
+
+    .visitdata h2{
+        margin-top: 0.9rem;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+    div.visitdata ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+    color: #211456;
+    }
+
+    div.visitdata ul li {
+        padding: 2px;
+    }
+    
+    div.acceptreject{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+
+            .acceptreject a {
+                padding: 8px 16px;
+                border-radius: 30px;
+                font-size: 1.2rem;
+                color: white;
+                text-decoration: none;
+            
+            }
+
+            div.acceptreject a:hover{
+                transform: translateX(1px);
+            }
+
+
+        .acceptreject .btn-reject {
+                background-color: #fb6340;
+                border-color: #fb6340;
+                box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+            }
+
+            .acceptreject .btn-accept{
+            background-color: #2dce89;
+            border-color: #2dce89;
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+            }
+
+
+    @media (min-width: 132px) and  (max-width : 1300px) {
+        div.visitcard {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            align-items: center;
+        border: 1px solid #f1f1f1;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        background: white;
+        
+    }
+
+    div.visitcard img{
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        margin: 0;
+    }
+
+    
+    main{
+        padding: 5px;
+        }
+
+        section{
+            margin-top: 20%;
+        }
+
+
+    }
